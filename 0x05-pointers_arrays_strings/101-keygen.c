@@ -4,12 +4,12 @@
 
 /**
  * main - Generates random passwords for 101-crackme
- *
  * Return: Always 0
  */
+
 int main(void)
 {
-	int sum = 0;
+	int sum;
 	char c;
 
 	srand(time(NULL));
@@ -19,7 +19,6 @@ int main(void)
 		sum += c;
 		putchar(c);
 	}
-
 	putchar(2772 - sum);
 	return (0);
 }
