@@ -8,12 +8,13 @@
   */
 int _strlen(char *s)
 {
-	int q = 0;
+	int c = 0;
 
 	for (; *s != '\0'; s++)
 	{
-		q++;
+		c++;
 	}
 
 	return (c);
 }
+
