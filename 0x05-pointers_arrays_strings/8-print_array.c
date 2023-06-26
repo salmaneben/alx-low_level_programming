@@ -2,19 +2,19 @@
 #include <stdio.h>
 /**
  * print_array - prints n element of an array of integers
- * Owned by salmane
+ * Owned by Salmane
  * @a: int to check
  * @n: int to check
  * Return: 0 is success
  */
 void print_array(int *a, int n)
 {
-	int z;
+	int x;
 
-	for (z = 0; x < n; z++)
-		if (z != n - 1)
-		printf("%d, ", a[z]);
+	for (x = 0; x < n; x++)
+		if (x != n - 1)
+		printf("%d, ", a[x]);
 		else
-			printf("%d", a[z]);
+			printf("%d", a[x]);
 printf("\n");
 }
